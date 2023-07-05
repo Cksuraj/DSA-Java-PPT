@@ -20,16 +20,12 @@
 .group {
   list-style: none;
   display: flex;
-  column-gap: 0px;
-  margin-left: 38px;
-  margin-right: -25px;
   justify-content: space-around;
-  margin-bottom: -20px;
+  margin-bottom:-20px;
 }
 .group li{
-  text-align: start;
   position: relative;
-  right: 25px;
+  bottom: 15px;
 }
 
 .pink {
@@ -70,7 +66,7 @@ margin-bottom: -20px;
 }
 .moveb{
   position: relative;
-  right: 689.5px;
+  right: 857px;
   bottom: 113px;
 }
 .groupb{
