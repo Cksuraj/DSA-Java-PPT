@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+
+/* span*/
+ span{
+    font-weight: 600;
+    color: dodgerblue;
+    font-size: 2rem;
+}
+/* compnay name */
+.company-name img{
+    height: 50px;
+    max-width: 30%;
+}
+
+/* hero Section*/
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+/* hero left */
+  
+.hero-left{
+    padding-inline: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:start;
+}
+
+.msg{
+    font-size: 16px;
+    text-align: justify;
+    /* width: 50%; */
+}
+/* html video */
+.hero-right video{
+    height: 400px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* impmsg */
+.impmsg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: 20px;
+    background-color: #262626;
+    color: white;
+    text-align: center;
+}
+
+.double-color{
+    background: #2980B9;
+    width: 50%;  
+    border-radius: 4px;
+}
+
+/* Footer */
+footer{
+    display:  flex;
+    background-color: #2980B9;
+    color: white;
+    padding-inline: 20px;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    text-align: start;
+}
+
+.b2 ul li , .b3 ul li{
+    list-style: none;
+}
+
+.b1, .b2 , .b3 , .b4 {
+    text-align: start;
+}
+
+.b2  ul li a , .b3 ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.b4{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.b4 input{
+    border-radius: 4px;
+}
+/* media Query for tablet  */
+
+@media screen and (min-width:560px) and (max-width:760px) {
+    .hero{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        /* margin-top: 50px; */
+    }
+    .hero-left{
+        padding-inline: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:start;
+    }
+    span{
+        font-weight: 700;
+        color: dodgerblue;
+        font-size: 2rem;
+    }
+    .hero-right video{
+        height: 400px;
+        width: 100%;
+        border-radius: 8px;
+    }
+    .msg{
+        font-size: 20px;
+        text-align: justify;
+        width: 90%;
+    }
+    
+    footer{
+        display:  flex;
+        flex-direction: column;
+        background-color: #2980B9;
+        color: white;
+        padding-inline: 20px;
+        justify-content: space-around;
+        align-items: start;
+        text-align: start;
+        width: 100%;
+        padding: 20px;
+        height: max-content;
+    }
+    .b2 ul , .b3 ul {
+        padding-left: 0px;
+    }
+ 
+    
+}
+
+/* for Smart-Phone */
+
+@media screen and (min-width:360px) and (max-width:560px) {
+    .hero{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        /* margin-top: 50px; */
+    }
+    span{
+        font-weight: 600;
+        color: dodgerblue;
+        font-size: 1.6rem;
+    }
+    .hero-right video{
+        height: 250px;
+        width: 100%;
+        border-radius: 8px;
+    }
+    .msg{
+        font-size: 16px;
+        text-align: justify;
+        width: 90%;
+    }
+    h3{
+        font-size: 14px;
+    }
+    .company-name img{
+        border-radius: 8px;
+    }
+    .impmsg{
+        background-color: white;
+        color: #000;
+    }
+   
+    .double-color{
+        background: white;
+        width: 50%;  
+        color: #2980B9;
+    }
+    footer{
+        display:  flex;
+        flex-direction: column;
+        background-color: #2980B9;
+        color: white;
+        padding-inline: 20px;
+        justify-content: space-around;
+        align-items: start;
+        text-align: start;
+        width: 100%;
+        padding: 20px;
+        height: max-content;
+    }
+    .b2 ul , .b3 ul {
+        padding-left: 0px;
+    }  
+} 

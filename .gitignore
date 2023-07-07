@@ -1,0 +1,105 @@
+   
+    # Navbr
+    <header class="Nav">
+      <div class="nav-ele1">
+        <!-- logo -->
+        <img src="./landing page  img/logo.png" alt="">
+      </div>
+
+      <div class="nav-ele2">
+        <!-- home,blog about,contact -->
+        <!-- <ul>
+        <li> <a href="#"> Home </a></li>
+        <li> <a href="#"> Blog</a></li>
+        <li> <a href="#"> About</a></li>
+        <li> <a href="#">Contact</a></li>
+    </ul> -->
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled">Contact</a>
+      </li>
+    </ul>
+      </div>
+
+      <div class="nav-ele3">
+        <button>Login</button>
+      </div>
+    </header>
+
+
+    /* Navbr */
+
+/* .Nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+
+.nav-ele2 ul{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 60px;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav-ele2 ul li{
+   list-style: none;
+}
+
+.nav-ele2 ul li a{
+    color: white;
+    text-decoration: none;
+}
+/* logo 
+.nav-ele1 img{
+    height: 70px;
+    
+    margin: 10px;
+    width: min-content;
+    border-radius: 4px;
+}
+
+.nav-ele3 button{
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    background-color: dodgerblue;
+    border: none;
+} */
+
+
+  <div class="gallery-item">
+      <img src="./gallary img/1.jpg" alt="Image 1">
+    </div>
+    <div class="gallery-item">
+      <img src="./gallary img/2.jpg" alt="Image 2">
+    </div>
+    <div class="gallery-item">
+      <img src="./gallary img/post-02.jpg" alt="Image 3">
+    </div>
+    <!-- Add more gallery items -->
+    <div class="gallery-item">
+      <img src="./gallary img/post-03.jpg" alt="Image 4">
+    </div>
+    <div class="gallery-item">
+      <img src="./gallary img/post-05.jpg" alt="Image 5">
+    </div>
+    <div class="gallery-item">
+      <img src="./gallary img/post-06.jpg" alt="Image 6">
+    </div>
