@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock</title>
+    <style>
+      body {
+        background-color: indigo;
+        text-align: center;
+      }
+      h1 {
+        font-size: 5rem;
+        color: blueviolet;
+        padding-top: 50px;
+        text-align: center;
+        letter-spacing: 20px;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .clock {
+        font-size: 4rem;
+        color: white;
+        padding: 10px 20px;
+        background-color: blueviolet;
+        width: fit-content;
+        border-radius: 4px;
+      }
+      .msg {
+        font-size: 1rem;
+        text-align: center;
+        color: white;
+      }
+      p {
+        font-size: 1rem;
+        word-spacing: 35px;
+        text-align: start;
+        position: relative;
+        right: 50px;
+        bottom: 35px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>PWSKILLS</h1>
+    <div class="container">
+      <div class="clock" id="digitalclock"></div>
+      <p>Houre Minut Second</p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

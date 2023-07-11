@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .skeleton {
+      width: 300px;
+      height: 20px;
+      background-color: lightgray;
+      margin-bottom: 10px;
+    }
+
+    body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+  </style>
+  
+</head>
+<body>
+  <div id="content">
+    <div class="skeleton"></div>
+    <div class="skeleton"></div>
+    <div class="skeleton"></div>
+    <div class="skeleton"></div>
+    <div class="skeleton"></div>
+  </div>
+
+  <script>
+    var contentDiv = document.getElementById('content');
+
+    // Fetch data from JSONPlaceholder API
+    fetch('https://jsonplaceholder.typicode.co')
+      .then(response => response.json())
+      .then(data => {
+
+        // Remove skeleton loader
+
+        contentDiv.innerHTML = '';
+
+        // Display fetched data
+        data.forEach(post => {
+          var postDiv = document.createElement('div');
+          postDiv.textContent = post.title;
+          contentDiv.appendChild(postDiv);
+        });
+      })
+      .catch(error => console.error(error));
+  </script>
+</body>
+</html>
